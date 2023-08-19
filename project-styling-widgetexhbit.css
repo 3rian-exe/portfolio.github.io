@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-thin;
+    src: url(Fonts/Montserrat/static/Montserrat-Thin.ttf);
+}
+
+body div.projectContainer hr {
+    height: 1px;
+    background: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body div.projectContainer a {
+    text-decoration: none;
+    background: none;
+    color: rgb(242, 115, 72);
+    font-size: 100%;
+}
+
+body div.projectContainer a:hover {
+    color: white;
+} 
+
+body div.projectContainer h1 {
+    font-family: Montserrat;
+    color: rgb(242, 115, 72);
+    text-align: center;
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+body div.frontOverview {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 2vw;
+    margin: 3vw;
+}
+
+body div.frontOverview img {
+    display: block;
+    margin: 25px;
+    width: 40%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+body div.backDetails {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 2vw;
+    margin: 3vw;
+}
+
+body div.backDetails img {
+    display: block;
+    margin: 25px;
+    width: 40%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+body div.widgets h2 {
+    font-family: Montserrat;
+    color: rgb(242, 115, 72);
+    text-align: center;
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+body div.widget1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 2vw;
+    margin: 3vw;
+}
+
+body div.widget1 img {
+    display: block;
+    margin: 25px;
+    width: 40%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+body div.widget2 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 2vw;
+    margin: 3vw;
+}
+
+body div.widget2 img {
+    display: block;
+    margin: 25px;
+    width: 150%;
+    border-radius: 15px;
+    border: 2px solid black;
+}

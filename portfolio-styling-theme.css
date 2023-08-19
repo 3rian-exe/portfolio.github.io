@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-thin;
+    src: url(Fonts/Montserrat/static/Montserrat-Thin.ttf);
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+
+body {
+    background: rgb(24, 40, 40);
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+body div.main {
+    margin: auto;    
+    font-size: 2vw;
+}
+
+body div.main img {
+    border: 5px solid rgb(242, 115, 72);
+    display: block;
+    margin: auto;
+    width: 20vw;
+    border-radius: 15px;
+}
+
+body div.wrapper div.main h1, h2{
+    color: white;
+    text-align: center;
+}
+
+body div.nav {
+    margin: 100px;
+}
+
+body footer {
+    font-family: Montserrat-thin;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: lighter;
+}

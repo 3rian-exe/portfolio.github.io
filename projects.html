@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link href="projects-styling.css" rel="stylesheet"/>
+    <link href="project-styling-widgetexhbit.css" rel="stylesheet"/>
+    <title> Brian S. Projects </title>
+</head>
+<body>
+
+    <div class="backLink">
+        <a href="https://3rian-exe.github.io/portfolio.github.io/">Back</a>
+    </div>
+
+
+    <div class="projectContainer">
+        <h1><a target="_blank" href="https://github.com/3rian-exe/Widget-ExhiBiT">Widget ExhiBiT</a></h1>
+        <div class="hardware">
+            <div class="frontOverview">
+                <img src="widget-exhibit-images/front.jpg" alt="front">
+                <aside>
+                    <p>Widget ExhiBiT is two 64x64 pixel HUB75 P3 RGB LED matrix panels daisy chained together. They are powered by a Raspberry Pi Zero 2W, but can also be run off of other Raspberry Pi's such as the Zero W, 2, 3, and 4. This project is dependent on Henner Zellers <a target="_blank" href="https://github.com/hzeller/rpi-rgb-led-matrix">rpi-led-matrix</a> GitHub repository. This is what makes this project possible. This library provides all the atomic functions necessary to write software that's able to use the display without the need to write any lower-level code. The widgets written for this device are primarily written in Python 3 and C++.
+                    </p>
+                </aside>
+            </div>
+            <div class="backDetails">
+                <aside>
+                    <p>The RGB LED matrix panels interface with Pi using a hat by <a target="_blank" href="https://www.adafruit.com/product/2345">Adafruit</a>. And this device package with the panels is powered by a 5-volt, 15-amp power supply (75 watts). Although it doesn't pull more than approximately 45-50 watts at full power/brightness, it leaves some room for expansion.</p>
+                </aside>
+                <img src="widget-exhibit-images/back.jpg" alt="back">
+            </div>
+        </div>
+        <hr>
+        <div class="widgets">
+            <h2> <a target="_blank" href="https://github.com/3rian-exe/Widget-ExhiBiT">Widgets</a></h2>
+            <div class="widget1">
+                <img src="widget-exhibit-images/weather.jpg" alt="weather widget">
+                <aside>
+                    <p>This widget was written using Python 3 and C++. To acquire the weather data, I'm using the <a target="_blank" href="https://openweathermap.org/api">OpenWeatherMap API</a> and the Python <a target="_blank" href="https://pypi.org/project/requests/">requests</a> and <a target="_blank" href="https://docs.python.org/3/library/json.html">JSON</a> libraries. It shows the current temperature, conditions, wind speed, humidity, and hourly forecast in 3-hour increments.</p>
+                </aside>  
+            </div>
+            <div class="widget2">
+                <aside>
+                    <p>This widget utilizes the <a target="_blank" href="https://developer.spotify.com/documentation/web-api">Spotify API</a> and was written using Python 3 and the <a target="_blank" href="https://pillow.readthedocs.io/en/stable/">PIL</a> and <a target="_blank" href="https://spotipy.readthedocs.io">Spotipy</a> libraries. It displays the album art of the current song playing on a user's account, along with the pause/play status and a progress bar for how far into the track you are. Note: The flickering and minor visual artifacts are only visible due to the camera's rolling shutter.</p>
+                </aside>
+                <img src="widget-exhibit-images/spotify.GIF" alt="spotify widget">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Brian Sternfeld - Portfolio - Brooklyn, New York</h3>
+    </footer>
+</body>
+</html>

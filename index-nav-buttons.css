@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body div.nav ul {
+    list-style-type: none;
+}
+
+body div.nav ul li a {
+    text-decoration: none;
+    background: none;
+    color: rgb(242, 115, 72);
+    font-size: 5vw;
+}
+
+body div.nav ul li a:hover {
+    color: white;
+}
+
