@@ -20,3 +20,7 @@ body div.nav ul li a:hover {
     color: white;
 }
 
+body div.nav ul li.mail a:hover {
+    color: rgb(13, 140, 183);
+}
+
